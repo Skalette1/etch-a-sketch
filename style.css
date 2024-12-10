@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    transform: translateY(5%);
+    border: 25px solid red;
+    border-radius: 2.3rem;
+    box-shadow: 10px 10px 28px #000;
+    text-align: center;
+}
+
+.delete button {
+    transform: translateY(25%);
+    padding: 1rem;
+    font-size: 1.3rem;
+    width: 20rem;
+    color: blueviolet;
+}
